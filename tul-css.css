@@ -1,0 +1,68 @@
+*
+{
+	box-sizing: border-box;
+	margin: 0;
+}
+body
+{
+	font-family: "Montserrat";
+	margin: auto;
+	width: 100%;
+}
+@font-face
+{
+	font-family: "TTHoves";
+	src: url(font/);
+}
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+li
+{
+	list-style-type: none;
+}
+header
+{
+	display: flex;
+}
+.bg
+{
+	width: 50%;
+	background-color: red;
+}
+.bg1
+{
+	width: 50%;
+	background-color: white;
+	z-index: 1;
+}
+.tulpar
+{
+	width: 585px;
+	margin: auto;
+	display: flex;
+}
+.tul-text
+{
+	width: 585px;
+	display: flex;
+}
+.tul-text h1
+{
+	color: white;
+	padding-left: 20px;
+}
+.nav ul
+{
+	display: flex;
+	font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+.nav li
+{
+	margin: 20px 20px 0 20px;
+}
